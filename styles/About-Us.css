@@ -1,0 +1,12 @@
+p {
+    font-family: "Raleway";
+    font-weight: bold;
+    width: 30rem;
+    line-height: 2rem;
+    color: #4A4A4A;
+}
+
+h1 {
+    font-family: "Josefin Sans";
+    font-size: 3rem;
+}

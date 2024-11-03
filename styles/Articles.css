@@ -1,0 +1,51 @@
+.Articles-Thumbnail-Countries {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    background: none;
+    width: 600px;
+    margin-top: 60px;
+}
+
+.Articles-Thumbnail-Countries-Button {
+    background: none;
+    width: 600px;
+    border:none;
+}
+
+.Articles-Thumbnail-Countries-Button:hover {
+    background: none;
+    width: 600px;
+    border:none;
+    cursor: pointer;
+}
+
+.First-Header-Buttons {
+    display: flex;
+    justify-content: space-around;
+    width: 300px;
+}
+
+.First-Header-Buttons1 {
+    display: flex;
+    justify-content: space-around;
+    width: 500px;
+}
+
+.First-Thumbnail {
+    width: 200px;
+    height: 112.5px;
+    border:solid;
+    border-color: #E74C3C;
+    border-width: 2px;
+    border-radius: 15px;
+}
+
+.First-Thumbnail-Title {
+    color: #34495E;
+    font-family: "Poppins";
+    font-size: 24px;
+    font-weight: bolder;
+    margin-left: 10px;
+    margin-bottom: 20px;
+}

@@ -1,0 +1,109 @@
+.Header {
+    background-color: #343A40; /* Muted Black */
+    width: 100%; /* Full width */
+    height: 7.5rem; /* 120px */
+    display: flex; /* Flexbox layout */
+    align-items: center; /* Center items vertically */
+    justify-content: space-between; /* Center items horizontally */
+    position: fixed; /* Sticky header */
+    top: 0; /* Stick to the top */
+    left: 0; /* Align to the left */
+    transition: height 0.3s ease; /* Smooth transition for height change */
+    z-index: 1000; /* Ensure header is on top of other content */
+}
+
+.Website-Title {
+    color: #FFFFFF;
+    font-family: "Manifesto"; /* Add a fallback font */
+    letter-spacing: 0.125rem; /* 2px */
+    font-size: 2.5rem; /* 40px */
+    font-weight: bold; /* Change to 'bold' instead of 'bolder' */
+    margin-left: 4.375rem; /* 70px */
+    margin-block-start: 0;
+    margin-block-end: 0;
+    margin-top: 0.625rem; /* 10px */
+}
+
+.Header-Button-Articles,
+.Header-Button-About-Us,
+#Header-Button-Goback {
+    color: 	#FFFFFF;
+    background: none;
+    border: none;
+    font-family: "Raleway";
+    font-size: 0.8125rem; /* 13px */
+    font-weight: bold;
+    position: relative;
+    line-height: 1.2; /* Adjust line height as needed */
+    padding: 0; /* Ensure no padding interferes */
+    margin-right: 4rem;
+}
+
+.Header-Buttons {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-right: 5rem; /* 200px */
+    overflow: hidden;
+    transition: color 0.3s ease;
+    position: relative;
+}
+
+.Header-Buttons1 {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-right: 5rem; /* 200px */
+    overflow: hidden;
+    transition: color 0.3s ease;
+    position: relative;
+}
+
+.Header-Button-Articles:after,
+.Header-Button-About-Us:after,
+#Header-Button-Goback:after {
+    content: ''; /* Add content after the element */
+    position: absolute; /* Position absolute for pseudo-element */
+    width: 100%; /* Full width */
+    transform: scaleX(0); /* Initial scale of 0 for underline effect */
+    height: 0.1875rem; /* 3px */
+    top: calc(100% + 0.625rem); /* 10px below the text */
+    left: 0; /* Align to left */
+    background-color: #FFA000; /* Background color of the underline */
+    transform-origin: center; /* Set transform origin */
+    transition: transform 0.25s ease-out; /* Transition effect for the underline */
+}
+
+.Header-Button-Articles:hover:after,
+.Header-Button-About-Us:hover:after,
+#Header-Button-Goback:hover:after {
+    transform: scaleX(1); /* Scale the underline on hover */
+    transform-origin: center; /* Set transform origin */
+}
+
+.Header-Button-Articles:hover,
+.Header-Button-About-Us:hover {
+    cursor: pointer;
+}
+
+.Header-Button-Contact-Us {
+    color: 	#FFFFFF;
+    background-color: 	#FFC107;
+    border: none;
+    font-family: "Raleway";
+    font-size: 0.8125rem; /* 13px */
+    font-weight: bold;
+    padding: 0.9375rem 0.9375rem; /* 15px 15px */
+    border-radius: 0.2rem;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.Header-Button-Contact-Us:hover {
+    cursor: pointer;
+    background-color: 	#FFA000;
+    transform: scale(0.98);
+}
+
+.Logo {
+    width: 10%;
+}

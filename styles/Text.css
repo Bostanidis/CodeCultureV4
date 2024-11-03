@@ -1,0 +1,126 @@
+
+
+.Article-Title {
+    color: 	#FF6F61;
+    font-family: "Montserrat";
+    font-size: 2.25rem; /* 36px */
+    margin-left: 0.625rem; /* 10px */
+    margin-bottom: 1.25rem; /* 20px */
+    margin-top: 2.5rem; /* 40px */
+}
+
+.Middle-Page {
+    flex: 1;
+}
+.Flexbox1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Flexbox {
+    display: flex;
+    justify-content: center;
+}
+
+.Introduction-Text {
+    font-size: 1.1875rem; /* 19px */
+    font-family: "Lora";
+    color: 	#333333;
+    margin-left: 0.625rem; /* 10px */
+    margin-bottom: 3.125rem; /* 50px */
+}
+
+.WebDevelopment-Title {
+    font-size: 2.1875rem; /* 35px */
+    font-family: "Merriweather";
+    color: #FFC107;
+    margin-left: 0.625rem; /* 10px */
+    margin-left: 3.125rem; /* 50px */
+}
+
+.WebDevelopment-Title-Box {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    background-color: #e8e9eb;
+    align-items: center;
+    border-style: solid;
+    border-width: 0.0625rem; /* 1px */
+    border-color: gray;
+    width: 25rem; /* 400px */
+    margin-bottom: 3.125rem; /* 50px */
+    margin-right: 1.25rem; /* 20px */
+    position: relative;
+}
+
+.WebDevelopment-Title-Box1 {
+    width: 50rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 1.875rem; /* 30px */
+}
+
+.Box-Number {
+    font-family: "Norse";
+    font-size: 2.5rem; /* 40px */
+    position: absolute; /* Position it absolutely */
+    bottom: 1.25rem; /* 20px */
+    right: 2rem; /* 50px */
+    margin: 0; /* Remove margins to prevent overflow */
+}
+
+.Box-Number-Div {
+    margin-bottom: 3.125rem; /* 50px */
+}
+
+.Section-Box {
+    display: flex;
+    justify-content: space-around;
+    width: 50rem; /* 800px */
+    height: 18.75rem; /* 300px */
+}
+
+.html-Icon, .css-Icon, .JS-Icon {
+    width: 5%; /* 5% */
+    margin-left: 1rem;
+}
+
+.Country-Flag-USA, .Country-Flag-Canada, .Country-Flag-Germany, .Country-Flag-SouthKorea, .Country-Flag-Japan, .Country-Flag-China, .Country-Flag-Australia, .Country-Flag-Sweden, .Country-Flag-USA2, .Country-Flag-Switzerland, .Country-Flag-Singapore {
+    width: 11%;
+    vertical-align: middle;
+}
+
+.Country-Statistics-Bullets {
+    margin-right: 3.75rem; /* 60px */
+}
+
+.Country-List {
+    color: #FF6F61;
+    font-family: "Oswald";
+    font-size: 1.5625rem; /* 25px */
+    margin-left: 1rem;
+    margin-right: 1.5rem;
+    font-weight: bolder;
+    display: inline-block;
+}
+
+.Li {
+    font-family: "Lora";
+    width: 100%;
+    color: 	#212529;
+    line-height: 0.9375rem; /* 15px */
+    font-weight: bolder;
+    font-size: 0.65rem; /* 12px */
+    margin-left:1rem; /* 10px */
+
+}
+
+.Bullet-Point-Salary, .Bullet-Point-Life, .Bullet-Point-Companies {
+    color: 	#212529;
+    width: 100%;
+    font-family: "Lora";
+    font-weight: bold;
+    font-size: 0.65rem; /* 10px */
+    display: inline;
+}

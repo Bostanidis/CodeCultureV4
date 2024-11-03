@@ -1,0 +1,93 @@
+/* Contact Us Dialog Styles */
+.contact-dialog {
+    display: none; /* Hidden by default */
+    position: fixed; /* Fixed positioning */
+    right: 2rem; /* Distance from the right */
+    bottom: 2rem; /* Distance from the bottom */
+    width: 300px; /* Width of the dialog */
+    background-color: #ffffff; /* Background color */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Softer shadow for depth */
+    border-radius: 0.5rem; /* Slightly more rounded corners */
+    z-index: 1000; /* Ensure it sits above other content */
+    animation: slide-in 0.5s ease forwards; /* Apply animation */
+}
+
+/* Dialog Content Styles */
+.dialog-content {
+    padding: 1.5rem; /* Inner padding for a more spacious feel */
+}
+
+/* Close Button Styles */
+.close-button {
+    cursor: pointer; /* Pointer cursor */
+    float: right; /* Align to the right */
+    font-size: 1.5rem; /* Slightly smaller font size */
+    color: #A4B8C4; /* Match color palette */
+}
+
+/* Headings Style */
+.h2 {
+    margin-top: 0; /* Remove margin from the top */
+    color: #2F2F2F; /* Dark gray for better contrast */
+    font-family: "Oswald", serif; /* Nordic-inspired font */
+    font-weight: bold;
+}
+
+label {
+    font-family: "Lora";
+    font-weight: bold;
+    padding-bottom: 0.4rem;
+}
+
+/* Form Styles */
+form {
+    display: flex; /* Use flexbox for layout */
+    flex-direction: column; /* Stack elements vertically */
+}
+
+/* Input Fields Styles */
+input[type="email"],
+textarea {
+    margin-bottom: 1rem; /* Space below each field */
+    padding: 0.75rem; /* Padding within fields */
+    border: 1px solid #A4B8C4; /* Muted border color */
+    border-radius: 0.25rem; /* Rounded corners */
+    resize: vertical; /* Allow vertical resizing for textarea */
+    font-family: "Source Sans 3", sans-serif; /* Nordic-inspired font */
+    font-size: 1rem; /* Adjusted font size for better readability */
+    color: #2F2F2F; /* Dark gray for input text */
+}
+
+/* Submit Button Styles */
+.dialog-submit-button {
+    background-color: #FFC107; /* Earthy green background */
+    color: white; /* White text */
+    border: none; /* No border */
+    padding: 0.75rem; /* Padding */
+    border-radius: 0.25rem; /* Rounded corners */
+    cursor: pointer; /* Pointer cursor */
+    font-family: "Raleway", sans-serif; /* Match header font */
+    font-weight: bold;
+    font-size: 1rem; /* Adjusted font size for consistency */
+    transition: background-color 0.3s ease;
+    transition: transform 0.3s ease;
+}
+
+/* Submit Button Hover Effect */
+.dialog-submit-button:hover {
+    cursor: pointer;
+    background-color: #FFA000;
+    transform: scale(0.98);
+}
+
+/* Animation Keyframes */
+@keyframes slide-in {
+    0% {
+        transform: translate(100%, 100%); /* Start off-screen */
+        opacity: 0; /* Fully transparent */
+    }
+    100% {
+        transform: translate(0, 0); /* End at original position */
+        opacity: 1; /* Fully visible */
+    }
+}
