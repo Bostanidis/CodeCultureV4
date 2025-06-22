@@ -17,7 +17,7 @@ export default function Header() {
   return (
     <>
       {/* Header */}
-      <header className="w-full py-4 px-4 md:px-12 lg:px-18 flex justify-between items-center z-20 mx-auto">
+      <header className="w-full py-4 px-4 md:px-12 lg:px-16 flex justify-between items-center z-20 mx-auto">
         <a href="/">
           <div className="flex items-center">
             <Image
