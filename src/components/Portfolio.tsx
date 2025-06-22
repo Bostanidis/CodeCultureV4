@@ -119,9 +119,11 @@ export default function PortfolioSection() {
                   </p>
                 </div>
 
-                <Button variant="outline" size="sm" className="w-full">
-                  View Project
-                </Button>
+                <a href={project.href}>
+                  <Button variant="outline" size="sm" className="w-full">
+                    View Project
+                  </Button>
+                </a>
               </div>
             </motion.div>
           ))}
